@@ -31,7 +31,7 @@ body::before {
   inset: 0;
   background-image: url("assets/delfiny.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right bottom;
   background-size: contain; /* albo cover */
   opacity: 0.12; /* BARDZO WAŻNE */
   pointer-events: none;
