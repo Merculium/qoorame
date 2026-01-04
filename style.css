@@ -24,6 +24,21 @@ body {
   line-height: 1.6;
 }
 
+/* warstwa z grafiką */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("assets/delfiny.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; /* albo cover */
+  opacity: 0.12; /* BARDZO WAŻNE */
+  pointer-events: none;
+  z-index: -1;
+}
+
+
 /* ===== LINKS / NAV ===== */
 
 .nav {
@@ -87,4 +102,9 @@ a:focus {
     margin-bottom: 0.5rem;
   }
 }
+
+
+
+
+
 
